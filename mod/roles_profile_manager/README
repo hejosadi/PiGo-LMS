@@ -1,0 +1,8 @@
+Roles for Profile Manager
+=========================
+
+This project integrates Roles Framework (by Arck Interactive) with Profile Manager (by ColdTrick).
+
+Once enabled, this plugin will create an initial set of Profile Types associated with each custom role. Further editing can be done via profile manager's admin interface.
+
+Roles are automatically updated on profile type change, and vice versa role change trigger a profile type change.

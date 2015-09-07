@@ -1,0 +1,7 @@
+
+body {
+	background:#f8f8f8 url(../img/pattern.jpg) repeat;
+	font:13px/20px 'Cabin', Helvetica, Arial, sans-serif;
+	color: #555;
+	-webkit-font-smoothing: antialiased !important;	
+}

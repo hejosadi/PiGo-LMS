@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Counter and Stats Website</name>
+	<author>LogoNike.Com</author>
+	<version>1.01</version>
+	<description>This plugin tells you how many people are online in real time. It also shows visitors of the last 24 hours. Which pages are visited more.</description>
+	<website>http://logonike.com/</website>
+	<license>GNU General Public License version 2</license>
+	
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8.9</version>
+	</requires>
+	
+		
+		
+	<category>Admin</category>
+</plugin_manifest>

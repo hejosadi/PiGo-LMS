@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Srokap Plugins Installer</name>
+	<author>Paweł Sroka (srokap@gmail.com)</author>
+	<version>1.0rc1</version>
+	<description>Provides plugin search tool and automatic install capabilities.</description>
+	<website>http://srokap.pl/</website>
+	<copyright>(C) Paweł Sroka 2012-2013</copyright>
+	<license>http://opensource.org/licenses/BSD-3-Clause</license>
+	
+	<category>admin</category>
+
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+
+	<requires>
+		<type>plugin</type>
+		<name>srokap_framework</name>
+	</requires>
+	
+	<requires>
+		<type>php_extension</type>
+		<name>SimpleXML</name>
+	</requires>
+
+	<requires>
+		<type>php_extension</type>
+		<name>ftp</name>
+	</requires>
+
+	<suggests>
+		<type>php_extension</type>
+		<name>openssl</name>
+	</suggests>
+
+	<conflicts>
+		<type>elgg_release</type>
+		<version>1.9</version>
+	</conflicts>
+</plugin_manifest>
